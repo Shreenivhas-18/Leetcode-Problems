@@ -4,7 +4,6 @@ class Solution {
         while(n>0){
             sum+=n%k;
             n/=k;
-
         }
         return sum;
     }
